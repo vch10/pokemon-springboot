@@ -61,7 +61,7 @@ public class PokemonServiceTest {
     }
 
     @Test
-    public void PokemonRepository_updatePokemon_ReturnsPokemonDto(){
+    public void PokemonService_updatePokemon_ReturnsPokemonDto(){
         Pokemon pokemon = Pokemon.builder()
                 .name("Picachu")
                 .type("Electric")
@@ -81,7 +81,7 @@ public class PokemonServiceTest {
     }
 
     @Test
-    public void PokemonRepository_deletePokemon_ReturnsPokemonDto(){
+    public void PokemonService_deletePokemon_ReturnsPokemonDto(){
         Pokemon pokemon = Pokemon.builder()
                 .name("Picachu")
                 .type("Electric")
